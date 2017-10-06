@@ -92,4 +92,17 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+
+  /**
+     * Change this picture to move the sun display
+     */
+    public void moveSun()
+    {
+        if (sun != null)   // only if it don´t move already...
+        {
+
+        sun.slowMoveVertical(120);
+
+        }
+    }
 }
